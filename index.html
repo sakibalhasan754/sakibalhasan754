@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time to Watch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <div class="logo">⏱️ Time to Watch</div>
+      <nav>
+        <ul>
+          <li><a href="#movies">Movies</a></li>
+          <li><a href="#anime">Anime</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="modeToggle">🌙</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to <span>Time to Watch</span></h1>
+      <p>Watch Movies, Anime & Series Anytime!</p>
+    </div>
+  </section>
+
+  <!-- Movies Section -->
+  <section id="movies" class="section">
+    <div class="container">
+      <h2>🎬 Popular Movies</h2>
+      <div class="grid">
+        <div class="card"><img src="https://picsum.photos/300/200?random=1" alt="Movie"><p>Movie Title 1</p></div>
+        <div class="card"><img src="https://picsum.photos/300/200?random=2" alt="Movie"><p>Movie Title 2</p></div>
+        <div class="card"><img src="https://picsum.photos/300/200?random=3" alt="Movie"><p>Movie Title 3</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Anime Section -->
+  <section id="anime" class="section">
+    <div class="container">
+      <h2>🔥 Anime Collection</h2>
+      <div class="grid">
+        <div class="card"><img src="https://picsum.photos/300/200?random=4" alt="Anime"><p>Anime Title 1</p></div>
+        <div class="card"><img src="https://picsum.photos/300/200?random=5" alt="Anime"><p>Anime Title 2</p></div>
+        <div class="card"><img src="https://picsum.photos/300/200?random=6" alt="Anime"><p>Anime Title 3</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p><b>Time to Watch</b> is a demo website for movies, anime, and series. You can customize this site and add your own content!</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+        <p id="formMsg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Time to Watch. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
